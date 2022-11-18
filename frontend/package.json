@@ -21,7 +21,7 @@
     "start:front": "react-scripts start",
     "start": "yarn build && yarn server:prod",
     "build": "react-scripts build",
-    "server:prod": "node ../backend/server.js",
+    "server:prod": "node ./frontend/backend/server.js",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
